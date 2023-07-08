@@ -29,7 +29,7 @@ public class FelineTest {
         assertEquals(1, feline.getKittens());
     }
     @Test
-    public void testGetKittens() {
+    public void GetKittensWithParameterTest() {
         Feline feline = new Feline();
         assertEquals(2, feline.getKittens(2));
     }

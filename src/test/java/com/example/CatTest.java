@@ -15,7 +15,7 @@ public class CatTest {
     @Mock
     Feline feline;
     @Test
-    public void getSoundMeow() {
+    public void getSoundTest() {
         Feline feline = new Feline();
         Cat cat = new Cat(feline);
         assertEquals("Мяу", cat.getSound());
